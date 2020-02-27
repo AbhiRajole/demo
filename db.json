@@ -1,14 +1,56 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "employees": [
+        {
+            "id": 1,
+            "fullName": "raviraj",
+            "contactpreference": "phone",
+            "email": "abhishek@dell.com",
+            "phone": "2839478932",
+            "skills": [
+                {
+                    "skillName": "Angular",
+                    "experienceInYear": 3,
+                    "proficiency": "Advanced"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "fullName": "hemant",
+            "contactpreference": "email",
+            "email": "abhishek@dell.com",
+            
+            "skills": [
+                {
+                    "skillName": "NodeJS",
+                    "experienceInYear": 2,
+                    "proficiency": "Advanced"
+                },
+                {
+                    "skillName": "Angular",
+                    "experienceInYear": 1,
+                    "proficiency": "Beginner"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "fullName": "abhishek",
+            "contactpreference": "phone",
+            "email": "abhishek@gmail.com",
+            "phone": "9988776655",
+            "skills": [
+                {
+                    "skillName": "Java",
+                    "experienceInYear": 2,
+                    "proficiency": "Advanced"
+                },
+                {
+                    "skillName": "Javascript",
+                    "experienceInYear": 2,
+                    "proficiency": "Beginner"
+                }
+            ]
+        }
+    ]
 }
